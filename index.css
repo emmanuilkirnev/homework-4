@@ -1,0 +1,45 @@
+* {
+    box-sizing: content-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.relative {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid red;
+    left: 100px;
+}
+
+.second {
+    position: static;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid blue;
+}
+
+.relative,
+.second {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgba(219, 214, 214, 0.281);
+}
+
+.parent {
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    border: 3px solid green;
+}
+
+.child {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    top: 10px;
+    right: 10px;
+    border: 1px solid red;
+}
